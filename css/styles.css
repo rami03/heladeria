@@ -1,0 +1,81 @@
+/*  fuentes propias  */
+
+
+
+@font-face{
+    /* regular */
+    font-family: "roboto";
+    font-weight: normal;
+    font-style: normal;
+    src: local("roboto"),
+    url("../fonts/roboto/roboto-bold-webfont.woff") format("woff"),
+    url("../fonts/roboto/roboto-bold-webfont.woff2") format("woff2");
+
+}
+
+/* roboroto bold */
+@font-face{
+    font-family: "roboroto_bold";
+    font-weight: normal;
+    font-style: normal;
+    src: local("roboto_bold"),
+    url("../fonts/roboto/roboto-regular-webfont.woff") format("woff"),
+    url("../fonts/roboto/roboto-regular-webfont.woff2") format("woff2");
+
+}
+
+
+h1{
+    font-family: "arial black";
+}
+h2{
+    font-family: "cookie_regular";
+}
+
+
+
+
+
+
+
+
+html{
+    font-family: sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-color: #19E001;
+}
+/* estilos al nombre */
+header{
+    font-size: 35px;
+    padding: 25px;
+}
+
+header, .botonera{
+    text-align: center;
+}
+
+
+footer, .te_esperamos{
+    /* poner en posición fija */
+    position: fixed;
+    /* hacerlo del ancho de la pantalla */
+    width: 100%;
+    height: 5vh;
+    background-color: #F00AB1;
+    /* bordes redondeados */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-weight: bold;
+    /* Impotante para saltarse los margenes de html */
+    left: 0;
+    /* centrar texto */
+    text-align: center;
+    text-align: 15px;
+    text-align-last: justify;
+       
+    /* cuando hay position el boton delimita los margenes */
+    bottom: 0;
+    font-weight: bold;
+    color: #FAE42B;
+}

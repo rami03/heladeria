@@ -1,0 +1,16 @@
+.botonera{
+    display: flex;
+    justify-content: space-between;
+}
+
+.img_carrito{
+    
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+h3{
+    color: whitesmoke;
+}
+
